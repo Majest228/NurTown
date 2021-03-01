@@ -1,0 +1,1097 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-family: 'TT Hoves';
+  height: 100%;
+  color: #000;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  height: 100%;
+  font-family: 'TT Hoves';
+  color: #000;
+  background: #FFFFFF;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'TT Hoves';
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1;
+  margin: 0px 0px 50px 0px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 1;
+  margin: 0px 0px 20px 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  max-width: 1170px;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  margin: 0 auto;
+}
+
+.header__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 33px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  text-transform: uppercase;
+}
+
+.header__menu {
+  margin-top: 17px;
+}
+
+.header__menu .header__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__menu .header__list .header__list__item {
+  margin: 0 30px;
+  position: relative;
+}
+
+.header__menu .header__list .header__list__item .header__link {
+  font-family: TT Hoves;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  color: #333333;
+  letter-spacing: 0.2em;
+}
+
+.header__menu .header__list .header__list__item:nth-child(5) {
+  margin-right: 105px;
+}
+
+.active:before {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #000;
+  top: -3px;
+}
+
+.active:after {
+  position: absolute;
+  display: block;
+  width: 100%;
+  content: '';
+  position: absolute;
+  border-bottom: 1px solid #000;
+  top: 15px;
+}
+
+.header__information__content {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.header__information__content .header__information__left .header__information__left__sup {
+  margin-top: 331px;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 62px;
+  line-height: 64px;
+  color: #BDBDBD;
+}
+
+.header__information__content .header__information__left .header__information__left__sub {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.header__information__content .header__information__left .btn__navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 90px;
+}
+
+.header__information__content .header__information__left .btn__navigation .btn__navigation__left {
+  height: 53px;
+  width: 53px;
+  background: #FFFFFF;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding-top: 17px;
+  margin-right: 23px;
+}
+
+.header__information__content .header__information__left .btn__navigation .btn__navigation__left .btn__navigation__link {
+  color: #000;
+  font-size: 22px;
+}
+
+.header__information__content .header__information__left .btn__navigation .btn__navigation__right {
+  height: 53px;
+  width: 53px;
+  background: #F9F9F9;
+  border: 1px solid #F2F2F2;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  padding-top: 17px;
+  margin-right: 23px;
+  color: #000;
+}
+
+.header__information__content .header__information__left .slider__swipe {
+  margin-top: 90px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 24px;
+  color: #BDBDBD;
+}
+
+.header__information__content .header__information__left .slider__swipe .slider__title__left {
+  margin-right: 25px;
+}
+
+.header__information__content .header__information__left .slider__swipe .slider__title__right {
+  margin-left: 25px;
+}
+
+.header__information__content .header__information__left .slider__swipe .slesh {
+  margin-top: 10px;
+  width: 43px;
+  height: 2px;
+  border: 1px solid #E0E0E0;
+  -webkit-transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+      -ms-transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+          transform: matrix(-0.71, 0.71, -0.71, -0.71, 0, 0);
+}
+
+.header__information__content .header__information__right {
+  margin-left: 69px;
+  position: relative;
+}
+
+.header__information__content .header__information__right img {
+  width: 770px;
+  position: relative;
+}
+
+.header__information__right__btn {
+  position: absolute;
+  bottom: 0;
+  width: 222px;
+  height: 71px;
+  text-align: center;
+  padding-top: 30px;
+  background: #FFFFFF;
+}
+
+.header__information__right__btn a {
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.information__compain {
+  margin-top: 120px;
+}
+
+.information__compain__content {
+  max-width: 1145px;
+  background: #FBFBFB;
+  max-height: 435px;
+}
+
+.information__compain__content .information__compain__content__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.information__compain__content .information__compain__content__left .information__compain__content__window .window__first,
+.information__compain__content .information__compain__content__left .information__compain__content__window .window__second {
+  margin: 30px 0 0 100px;
+}
+
+.information__compain__content .information__compain__content__left .window__last {
+  margin: 60px 0 0 30px;
+}
+
+.information__compain__content .information__compain__content__right {
+  margin: 30px 0 0 30px;
+}
+
+.information__compain__content .information__compain__content__right h3 {
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #BDBDBD;
+}
+
+.information__compain__content .information__compain__content__right p {
+  margin-top: 20px;
+  font-family: 'TT Hoves';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  color: #000000;
+  line-height: 25px;
+}
+
+.information__compain__content .information__compain__content__right .btn__reading {
+  display: block;
+  width: 222px;
+  height: 71px;
+  background: #FFFFFF;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.information__compain__content .information__compain__content__right .btn__reading a {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #333333;
+}
+
+.middle__information {
+  margin-top: 150px;
+}
+
+.middle__information__content {
+  max-width: 1145px;
+}
+
+.middle__information__heading {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #BDBDBD;
+}
+
+.middle__information__items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.middle__information__items .middle__information__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.middle__information__items .middle__information__item h3 {
+  font-family: 'SF Pro Display';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 200px;
+  line-height: 239px;
+  color: #F2F2F2;
+  margin: 10px 30px 0 0;
+}
+
+.middle__information__items .middle__information__item p {
+  margin-top: 60px;
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 22px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.projects {
+  position: relative;
+  margin-top: 120px;
+}
+
+.project__heading {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  color: #BDBDBD;
+}
+
+.project__upper {
+  margin-top: 60px;
+  position: relative;
+}
+
+.project__upper .project__text {
+  position: absolute;
+  padding: 48px 79px;
+}
+
+.project__upper .project__text h3 {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 64px;
+  color: #FFFFFF;
+}
+
+.project__upper .project__text div {
+  margin-top: 8px;
+}
+
+.project__upper .project__text div a {
+  font-family: 'Gothic A1', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.all__project {
+  padding-top: 30px;
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  margin: 0 81% 0;
+  text-align: center;
+  width: 222px;
+  height: 71px;
+  background: #333333;
+}
+
+.all__project a {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.project__under {
+  margin-top: 30px;
+}
+
+.project2,
+.project4,
+.project5 {
+  margin-left: 27px;
+}
+
+.contact {
+  margin-top: 221px;
+}
+
+.contact__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.contact__heading {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 64px;
+  line-height: 64px;
+  letter-spacing: 3px;
+  color: #BDBDBD;
+}
+
+input[type=name],
+input[type=tel],
+input[type=email],
+input[type=tovar],
+input[type=message] {
+  width: 391px;
+  height: 46px;
+  background: #F3F3F3;
+  color: #8D8D8D;
+  margin-top: 10px;
+}
+
+input[type=message]::-webkit-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
+  padding-left: 21px;
+}
+
+input[type=message]::-moz-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
+  padding-left: 21px;
+}
+
+input[type=message]:-ms-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
+  padding-left: 21px;
+}
+
+input[type=message]::-ms-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
+  padding-left: 21px;
+}
+
+input[type=name],
+input[type=tel],
+input[type=email],
+input[type=tovar],
+input[type=message]::placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  color: #8D8D8D;
+  padding-left: 21px;
+}
+
+.textarea {
+  margin-top: 10px;
+  width: 391px;
+  height: 135px;
+  background: #F3F3F3;
+}
+
+.textarea::-webkit-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+
+.textarea::-moz-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+
+.textarea:-ms-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+
+.textarea::-ms-input-placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+
+.textarea::placeholder {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.04em;
+  padding-left: 21px;
+  padding-top: 14px;
+}
+
+.contact__content__right {
+  margin-left: 30px;
+}
+
+.contact__content__right img {
+  width: 100%;
+}
+
+.contact__footer {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.03em;
+  margin-left: 40px;
+  margin-top: 22px;
+  color: #333333;
+}
+
+.contact__footer__btn {
+  margin-top: 21px;
+  width: 222px;
+  height: 71px;
+  background: #333333;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.contact__footer__btn a {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.footer {
+  background: #2C2C2C;
+  margin-top: 118px;
+}
+
+.footer a {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.footer h3 {
+  font-family: TT Hoves;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin-bottom: 9px;
+}
+
+.footer__content {
+  padding-top: 60px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer__information .footer__link__inf {
+  margin-top: 16px;
+}
+
+.footer__link__contact {
+  margin-top: 32px;
+}
+
+.footer__link__contact img {
+  padding-right: 19px;
+}
+
+.footer__link__contact span {
+  padding-left: 34px;
+}
+
+.footer__social .footer__link__social {
+  display: inline;
+  margin: 0 30px 0 0;
+}
+
+.hr {
+  mix-blend-mode: normal;
+  opacity: 0.1;
+  margin-top: 58px;
+  border: 1px solid #FFFFFF;
+  height: 1px;
+  background-color: red;
+}
+
+.copyright {
+  margin-top: 24px;
+  text-align: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 22px;
+  color: rgba(200,200,200,0.5);
+}
+
+@media screen and (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+  }
+
+  .header__information__right img {
+    max-width: 600px;
+  }
+
+  .header__information__content .header__information__left {
+    margin: -150px 0 auto;
+  }
+
+  .information__compain__content {
+    max-height: 700px;
+  }
+
+  .project2,
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    width: 925px;
+  }
+
+  .project1,
+  .project3 {
+    margin-left: 28px;
+  }
+
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    margin-bottom: 30px;
+  }
+
+  .middle__information__heading,
+  .project__heading {
+    text-align: center;
+  }
+
+  .all__project {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 992px) {
+  .container {
+    max-width: 750px;
+  }
+
+  .header__information__content {
+    text-align: center;
+    display: block;
+    margin: -270px 0 auto;
+  }
+
+  .header__list__item {
+    display: none;
+  }
+
+  .header__information__right img {
+    max-height: 550px;
+  }
+
+  .btn__navigation {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .slider__swipe {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 30px;
+  }
+
+  .header__information__right {
+    margin-right: 69px;
+  }
+
+  .burger__menu {
+    margin-top: -15px;
+    display: inline-block;
+    cursor: pointer;
+    background: none;
+  }
+
+  .bar1,
+  .bar2,
+  .bar3 {
+    width: 28px;
+    height: 4px;
+    background-color: #333;
+    margin: 6px 0;
+    -webkit-transition: 0.4s;
+    -o-transition: 0.4s;
+    transition: 0.4s;
+  }
+
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    -ms-transform: rotate(-45deg) translate(-9px, 6px);
+        transform: rotate(-45deg) translate(-9px, 6px);
+  }
+
+  .change .bar2 {
+    opacity: 0;
+  }
+
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    -ms-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+  .information__compain__content {
+    max-width: 1145px;
+    text-align: center;
+    background: #FBFBFB;
+    max-height: 1200px;
+  }
+
+  .information__compain__content__left {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+
+  .information__compain__content__left .information__compain__content__window {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+
+  .information__compain__content__left .window__last {
+    display: block;
+    text-align: center;
+  }
+
+  .information__compain__content__left .btn__reading {
+    display: block;
+    width: 222px;
+    height: 71px;
+    background: #FFFFFF;
+    text-align: center;
+    padding-top: 30px;
+    margin: 30px auto;
+  }
+
+  .middle__information__content {
+    text-align: center;
+  }
+
+  .middle__information__items {
+    display: block;
+  }
+
+  .middle__information__items .middle__information__item {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .contact__content__right {
+    display: none;
+  }
+
+  .contact__content {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .contact__heading {
+    margin-top: 12px;
+  }
+
+  .contact__heading,
+  .contact__footer {
+    text-align: center;
+  }
+
+  .contact__footer__btn {
+    margin: 15px auto;
+  }
+
+  .project2,
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    width: 700px;
+  }
+
+  .project1,
+  .project3 {
+    margin-left: 28px;
+  }
+
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    margin-bottom: 30px;
+  }
+
+  .project4 .all__project,
+  .project5 .all__project,
+  .project1 .all__project,
+  .project3 .all__project {
+    margin: 0 auto;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+
+  .footer__information {
+    display: none;
+  }
+
+  .project2,
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    width: 90%;
+  }
+
+  .project1,
+  .project3 {
+    margin-left: 28px;
+  }
+
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    margin-bottom: 30px;
+  }
+
+  .all__project {
+    margin: 0 auto;
+  }
+
+  .window__second,
+  .window__first {
+    display: none;
+  }
+
+  .window__last {
+    padding-bottom: 15px;
+  }
+
+  .footer__contact {
+    display: none;
+  }
+
+  .header__information__right img {
+    max-width: 350px;
+  }
+
+  .middle__information__item p {
+    margin-top: 60px;
+    font-family: TT Hoves;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px !important;
+    line-height: 36px;
+    color: #333333;
+  }
+}
+
+@media (max-width: 600px) {
+  .project2,
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    width: 350px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .project__text {
+    display: none;
+  }
+
+  .project4,
+  .project5,
+  .project1,
+  .project3 {
+    margin-bottom: 30px;
+  }
+
+  .header__information__right img {
+    max-width: 250px;
+  }
+
+  .middle__information__items {
+    display: block;
+  }
+
+  .middle__information__items .middle__information__item {
+    display: block;
+  }
+
+  input[type=name],
+  input[type=tel],
+  input[type=email],
+  input[type=tovar],
+  input[type=message] {
+    width: 300px;
+    height: 46px;
+    background: #F3F3F3;
+    color: #8D8D8D;
+    margin-top: 10px;
+  }
+
+  .textarea {
+    margin-top: 10px;
+    width: 300px;
+    height: 135px;
+    background: #F3F3F3;
+  }
+
+  .information__compain__content__right h3 {
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 45px !important;
+    line-height: 64px;
+    color: #BDBDBD;
+  }
+
+  .information__compain__content__right p {
+    margin-top: 20px;
+    font-family: 'TT Hoves';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px !important;
+    color: #000000;
+    line-height: 25px;
+  }
+
+  .middle__information__content .middle__information__heading {
+    font-size: 40px !important;
+  }
+
+  .project__heading,
+  .contact__heading {
+    font-size: 40px !important;
+  }
+
+  .contact__footer {
+    font-size: 12px !important;
+  }
+}
